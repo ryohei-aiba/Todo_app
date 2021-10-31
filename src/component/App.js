@@ -1,5 +1,6 @@
 import React from 'react'
-import { render } from 'react-dom'
+
+let currentId = 0;
 
 class App extends React.Component{
   render() {
@@ -8,3 +9,5 @@ class App extends React.Component{
     )
   }
 }
+
+export default App;
